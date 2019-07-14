@@ -1,0 +1,27 @@
+// маленькие планшеты и большие телефоны
+$screen-sm-min: 576px;
+@mixin sm 
+  @media (min-width: #{$screen-sm-min}) 
+    @content;
+
+
+// маленькие планшеты
+$screen-md-min: 768px;
+@mixin md 
+  @media (min-width: #{$screen-md-min}) 
+    @content;
+
+
+// планшеты и меткий десктоп
+$screen-lg-min: 992px;
+@mixin lg 
+  @media (min-width: #{$screen-lg-min}) 
+    @content;
+
+
+// большие планшеты и десктоп
+$screen-xl-min: 1200px;
+
+@mixin xl 
+  @media (min-width: #{$screen-xl-min}) 
+    @content;

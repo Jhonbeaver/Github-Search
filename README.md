@@ -1,29 +1,22 @@
-# github
+# Тестовое задание «Поиск на Github»
 
-## Project setup
+[Готовое приложение](https://github-search-test.netlify.com/)
+
+## Установка зависимостей
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Сборка для разработки c hot-reload
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Сборка для production
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
