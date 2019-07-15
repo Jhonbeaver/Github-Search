@@ -27,8 +27,8 @@
 
 <script>
 import debounce from '../modules/debounce';
-const githubresult = () => import('../components/gihubresult.vue');
 
+const githubresult = () => import('../components/gihubresult.vue');
 export default {
   components: {
     githubresult,
